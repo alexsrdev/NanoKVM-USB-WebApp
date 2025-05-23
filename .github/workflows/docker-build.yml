@@ -46,7 +46,7 @@ jobs:
         uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
         with:
           images: |
-            ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_HUB_REPOSITORY }}
+            name=${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_HUB_REPOSITORY }}
 
       - name: Build and push Docker images
         id: push
