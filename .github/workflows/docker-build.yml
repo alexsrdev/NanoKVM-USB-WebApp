@@ -43,6 +43,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: alexsrdev/usbkvm
+          name: alexsrdev/usbkvm
 
       - name: Build and push Docker images
         id: push
