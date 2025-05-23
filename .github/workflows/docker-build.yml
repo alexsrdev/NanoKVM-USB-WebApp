@@ -46,7 +46,10 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_HUB_REPOSITORY }}
-          name: alexsrdev/usbkvm
+          tags: |
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+            type=sha,format=long
+            type=ref,event=branch
 
       - name: Build and push Docker images
         id: push
