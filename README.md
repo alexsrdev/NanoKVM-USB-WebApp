@@ -9,7 +9,7 @@ docker build -t usbkvm .
 
 ## Run Web App In Docker
 ```docker
-docker run -d -p 8080:8080 --name usbkvm usbkvm
+docker run -d -p 8080:8080 --name usbkvm alexsrdev/usbkvm
 ```
 Note: 
 - use flags "-it" and remove "-d" to interact in terminal
