@@ -15,7 +15,7 @@ Note:
 - use "--rm" to remove container after usage/exiting
 
 ## Usage
-Visit "http:localhost:8080" tp visit the web app. Visit NanoKVM_USB Quick Start for more info.
+Visit "http://localhost:8080" to visit the web app. Visit NanoKVM_USB Quick Start for more info.
 
 ## References
 - [NanoKVM_USB Quick Start](https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_USB/quick_start.html)
