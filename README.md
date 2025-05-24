@@ -12,7 +12,7 @@ docker run -d -p 8080:8080 --name usbkvm alexsrdev/usbkvm
 ```
 Note: 
 - use flags "-it" and remove "-d" to interact in terminal
-- use "--" rm to remove container after usage
+- use "--rm" to remove container after usage/exiting
 
 ## Usage
 Visit "http:localhost:8080" tp visit the web app. Visit NanoKVM_USB Quick Start for more info.
