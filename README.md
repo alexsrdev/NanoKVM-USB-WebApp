@@ -1,5 +1,5 @@
 # NanoKVM-USB-WebApp
-Web app Docker image builder for NanoKVM-USB. This repo usages sources files for the web app downloaded from the official NanoKVM-USB GitHub repo. 
+Web app Docker image builder for NanoKVM-USB. This repo use sources files for the web app downloaded from the official NanoKVM-USB GitHub repo. 
 
 ## Local Image Build (Optional)
 ```docker
